@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Carnival</title>
+    <style>
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f9f5f0;
+            color: #3b2f2f;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url("https://cdn.pixabay.com/photo/2021/06/20/14/21/coffee-6351116_1280.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        /* MENU SECTION */
+        .menu {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .menu h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            background-color: #fff;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .item h3 {
+            margin-bottom: 10px;
+        }
+
+        .item p {
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #6f4e37;
+        }
+
+        /* CONTACT SECTION */
+        .contact {
+            background-color: #3b2f2f;
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2.3rem;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        footer {
+            background-color: #2a1f1f;
+            color: #ccc;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div>
+            <h1>Coffee Carnival</h1>
+            <p>Your daily dose of warmth & caffeine</p>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="item">
+                <h3>Espresso</h3>
+                <p>Rich and bold espresso shot</p>
+                <span class="price">₹220</span>
+            </div>
+            <div class="item">
+                <h3>Cappuccino</h3>
+                <p>Espresso with steamed milk & foam</p>
+                <span class="price">₹280</span>
+            </div>
+            <div class="item">
+                <h3>Latte</h3>
+                <p>Smooth milk coffee with flavor</p>
+                <span class="price">₹200</span>
+            </div>
+            <div class="item">
+                <h3>Cold Brew</h3>
+                <p>Slow brewed, chilled perfection</p>
+                <span class="price">₹320</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+        <h2>Visit Us</h2>
+        <p> 12 Coffee Street, Ahmedabad</p>
+        <p> Open Daily: 8 AM – 10 PM</p>
+ 
+        <p>Email: brewbliss@coffee.com</p>
+    </section>
+
+    <footer>
+        © 2025 Brew Bliss Coffee | Crafted with ☕
+    </footer>
+
+</body>
+</html>
